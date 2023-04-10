@@ -37,7 +37,7 @@ export default function Users() {
             className="eachuser-div"
           >
             <ul>
-              <li style={{ textAlign: "start" }} className="eachuser">
+            <li style={{ textAlign: "start" }} className="eachuser">
                 {eachUser.name}
               </li>
             </ul>
