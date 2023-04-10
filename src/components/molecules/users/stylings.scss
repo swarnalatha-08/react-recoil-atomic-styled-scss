@@ -1,0 +1,18 @@
+// scss variables and nested-styling used in this file
+
+$font-size : 16px;
+$font-family : Lucida Sans;
+
+.eachuser-div{
+    &:hover{
+        background-color: #cbeef5;
+    }
+    .eachuser{
+        font-family: $font-family;
+        font-size: $font-size;
+        &:hover{
+            color: #11849c;
+        }
+    }
+}
+

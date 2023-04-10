@@ -1,0 +1,30 @@
+$display: flex;
+
+@mixin Display(){
+    display: $display;
+}
+
+.StyledTodo{
+    // border-top: 1px solid black;
+    // border-bottom:1px solid black;
+    overflow: scroll;
+    height: 400px;
+   border: 1px solid #17525e;
+    .StylesTodoList{
+        padding: 16px;
+        overflow: scroll;
+        .StyledTodoItem{
+           @include Display();
+            gap: 16px;
+            justify-content: space-between;
+            gap: 16px;
+            border: 1px solid #17525e;
+            padding: 16px;
+            &:hover{
+                background-color: #cfe4e8;
+            }
+        }
+    }
+}
+
+
